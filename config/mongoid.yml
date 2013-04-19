@@ -1,0 +1,6 @@
+defaults: &defaults
+  uri: <%= ENV['MONGODB_URL'] %>
+
+production:
+  <<: *defaults
+
